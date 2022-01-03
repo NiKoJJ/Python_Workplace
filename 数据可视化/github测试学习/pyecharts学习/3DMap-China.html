@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>三维中国地图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-gl.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="b09f3c40681a4333b78e2d01e886d216" class="chart-container" style="width:1080px; height:900px;"></div>
+    <script>
+        var chart_b09f3c40681a4333b78e2d01e886d216 = echarts.init(
+            document.getElementById('b09f3c40681a4333b78e2d01e886d216'), 'white', {renderer: 'canvas'});
+        var option_b09f3c40681a4333b78e2d01e886d216 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map3D",
+            "name": "china",
+            "map": "map3D",
+            "coordinateSystem": "geo3D",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "data": [],
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "china"
+            ],
+            "selected": {
+                "china": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo3D": {
+        "map": "world",
+        "name": "\u4e2d\u56fd",
+        "boxWidth": 100,
+        "boxHeight": 10,
+        "regionHeight": 3,
+        "environment": "#BEBEBE",
+        "groundPlane": {
+            "show": true,
+            "color": "#aaa"
+        },
+        "instancing": false,
+        "itemStyle": {
+            "color": "rgb(0,139,139)",
+            "borderColor": "rgb(192,255,62)",
+            "borderWidth": 0.8,
+            "opacity": 0.8
+        },
+        "label": {
+            "show": true
+        },
+        "emphasis": {},
+        "light": {
+            "main": {
+                "color": "#fff",
+                "intensity": 1.2,
+                "shadow": true,
+                "shadowQuality": "medium",
+                "alpha": 55,
+                "beta": 10
+            },
+            "ambient": {
+                "color": "#fff",
+                "intensity": 0.3
+            },
+            "ambientCubemap": {
+                "diffuseIntensity": 0.5,
+                "specularIntensity": 0.5
+            }
+        },
+        "temporalSuperSampling": {
+            "enable": "auto"
+        },
+        "zlevel": -10,
+        "left": "auto",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto",
+        "width": "auto",
+        "height": "auto"
+    },
+    "title": [
+        {
+            "text": "China/World-3D\u5730\u56fe\u7ed8\u5236",
+            "link": "https://www.nikojj.top",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_b09f3c40681a4333b78e2d01e886d216.setOption(option_b09f3c40681a4333b78e2d01e886d216);
+    </script>
+</body>
+</html>

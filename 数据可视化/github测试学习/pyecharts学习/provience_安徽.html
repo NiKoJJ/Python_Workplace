@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>安徽省地图-NiKoJJ</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/anhui.js"></script>
+
+</head>
+<body>
+    <div id="dc959dcaf88f434494d15b61dc6978c5" class="chart-container" style="width:1500px; height:900px;"></div>
+    <script>
+        var chart_dc959dcaf88f434494d15b61dc6978c5 = echarts.init(
+            document.getElementById('dc959dcaf88f434494d15b61dc6978c5'), 'white', {renderer: 'canvas'});
+        var option_dc959dcaf88f434494d15b61dc6978c5 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u5b89\u5fbd",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "\u5b89\u5fbd",
+            "data": [
+                {
+                    "name": "\u5bbf\u5dde\u5e02",
+                    "value": 10
+                },
+                {
+                    "name": "\u5408\u80a5\u5e02",
+                    "value": 40
+                },
+                {
+                    "name": "\u829c\u6e56\u5e02",
+                    "value": 45
+                },
+                {
+                    "name": "\u516d\u5b89\u5e02",
+                    "value": 50
+                },
+                {
+                    "name": "\u5b89\u5e86\u5e02",
+                    "value": 67
+                },
+                {
+                    "name": "\u9a6c\u978d\u5c71\u5e02",
+                    "value": 80
+                },
+                {
+                    "name": "\u5ba3\u57ce\u5e02",
+                    "value": 100
+                },
+                {
+                    "name": "\u9ec4\u5c71\u5e02",
+                    "value": 115
+                },
+                {
+                    "name": "\u6dee\u5357\u5e02",
+                    "value": 130
+                },
+                {
+                    "name": "\u868c\u57e0\u5e02",
+                    "value": 140
+                },
+                {
+                    "name": "\u6ec1\u5dde\u5e02",
+                    "value": 155
+                },
+                {
+                    "name": "\u4eb3\u5dde\u5e02",
+                    "value": 165
+                },
+                {
+                    "name": "\u961c\u9633\u5e02",
+                    "value": 175
+                },
+                {
+                    "name": "\u6dee\u5317\u5e02",
+                    "value": 30
+                },
+                {
+                    "name": "\u6c60\u5dde\u5e02",
+                    "value": 90
+                },
+                {
+                    "name": "\u94dc\u9675\u5e02",
+                    "value": 190
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5b89\u5fbd"
+            ],
+            "selected": {
+                "\u5b89\u5fbd": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": "{b}:{c} (\u6743\u91cd)",
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Map-\u5b89\u5fbd\u7701\u5730\u56fe",
+            "link": "https://baike.baidu.com/item/%E5%AE%89%E5%BE%BD/37014",
+            "target": "blank",
+            "subtext": "\u5b89\u5fbd\u7701\u5e02\u5730\u56fe",
+            "sublink": "https://baike.baidu.com/item/%E5%AE%89%E5%BE%BD/37014",
+            "subtarget": "self",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 200,
+        "text": [
+            "High",
+            "Low"
+        ],
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderColor": "#000",
+        "borderWidth": 0
+    }
+};
+        chart_dc959dcaf88f434494d15b61dc6978c5.setOption(option_dc959dcaf88f434494d15b61dc6978c5);
+    </script>
+</body>
+</html>
